@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Raleway-regular;
+    src: url(assets/fonts/Raleway-Regular.ttf);
+    
+}
+
+@font-face {
+    font-family: Raleway-extrabold;
+    src: url(assets/fonts/Raleway-ExtraBold.ttf);
+}
+
+*{
+    font-family: raleway-regular;
+    background-size: cover;
+    margin: 0;
+        
+    
+}
+
+h2{
+    font-family: Raleway-extrabold;
+    letter-spacing: 4px;
+}
+body{
+    text-align: center;
+    background-color:black;
+    color:white;
+    
+}
+
+header{
+    width: auto;   
+    padding-bottom: 90px;
+    border-bottom: 1px #33A8DB solid;    
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(assets/images/banner.png) , linear-gradient(#000000, #052432, #000000);
+    padding-top: 50px;
+    
+    
+}
+
+.logo{
+    
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 270px;
+    height: 240px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    margin-bottom:15px ;
+    
+            
+}
+
+.banner-content h1{
+    font-family: raleway-extrabold;
+    color:  #33A8DB;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 47px;
+    margin: 15px auto;
+    width: 480px;
+    
+    
+}
+
+.banner-content p{
+    
+    color:white;
+    height: 46px;
+    line-height: 23px;
+    font-size: 20px;
+    margin:5px auto;
+    width: 600px;
+    margin-bottom: 20px;
+    font-weight: 400;
+        
+}
+
+.banner-content button {
+    font-family: raleway-extrabold ;
+    margin-top: 10px;
+    color:#33A8DB;
+    border: 2px solid #33A8DB;
+    width:320px;
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    font-weight: 400;
+    
+}
+
+#course-content {
+    border-bottom: 1px #33A8DB solid;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    
+    
+}
+#course-content h2{
+    margin-top: 100px;
+    color:#33A8DB;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#course-content p{
+    margin-top: 20px;
+    color:white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 800px;
+    display: block;
+    margin: 20px auto 0;
+    display: block;
+    
+       
+}
+
+
+
+.module{
+    color: white;
+    border: 1px solid #33A8DB;
+    width: 535px;
+    height: 51px;     
+    border-radius: 57px;
+    background-color: #222;
+    box-shadow: -7px 8px 5px rgba(0, 0, 0, 0.4) inset;
+    font-weight: 300;
+    margin: 15px auto 30px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+span {
+    color: #33A8DB;
+    padding-right: 4px;
+}
+
+#transform-world {
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;    
+    background-repeat: no-repeat;
+    width:auto;
+    height: 600px;
+    border-bottom: 1px #33A8DB solid;
+    display: block;
+    font-weight: bolder;
+    
+}
+
+#transform-world p{
+    font-family: raleway-extrabold;
+    color: white;
+    text-shadow: 3px 2px #33A8DB;
+    margin: top 0;
+    padding: 200px 0 0 200px ;
+    text-align: left;
+    width: 250px;    
+    display: flex;
+    font-weight: 900;    
+    font-size: 40px;
+    text-transform: lowercase;
+    
+}
+
+#professional-challenges {
+    
+    width: auto;
+
+}
+
+#professional-challenges h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin: 100px auto 40px;
+    width: 700px;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#professional-challenges p{
+    color: white;
+    padding: 0px 5px 100px 5px;
+    width: 800px;
+    margin:30px auto 20px;
+}
+
+footer{
+    padding-top: 60px;
+    width: auto;
+    height: 140px;
+    border-top: 1px solid #33A8DB;
+    color: white;
+    background-image: linear-gradient( #000000,#002130);
+}
+
+footer a{
+    text-decoration: none;
+    color: #33A8DB;
+}
